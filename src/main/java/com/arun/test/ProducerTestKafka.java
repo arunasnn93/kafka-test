@@ -45,7 +45,7 @@ public class ProducerTestKafka {
 						logger.error("Error while producing");
 					}
 				}
-			}).get();
+			});
 		}
 		
 		producer.flush();
